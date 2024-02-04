@@ -124,41 +124,7 @@ int main()
 
     return 0;
 }
-/*
 
-     for(int i=1; i<=n+1; i++)
-    {
-        for(int j=i+1; j<=n; j++)
-        {
-            if(a[j][i]!=0)
-            { 
-                if(a[j][i]>0)
-                {
-                    for(int k=1; k<=n+1; k++)
-                    {
-                        a[i][k]=a[i][j]*a[i][k]-a[i][i]*a[i][k];
-                    }
-                }
-                else
-                {
-                    for(int k=1; k<=n+1; k++)
-                    {
-                        a[j][k]=a[i][i]*a[j][k]-a[j][i]*a[i][k];
-                    }
-                }
-                for(int i=1; i<=n; i++)
-                {
-                    for(int j=1; j<=n+1; j++)
-                    {
-                        cout<<a[i][j]<<" ";
-                    }
-                    cout<<endl;
-                }
-            }
-        }
-    }
-
-    */
 
 
 
